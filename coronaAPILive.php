@@ -21,11 +21,11 @@ tr:nth-child(even) {
 </head>
 <body>
 
-<center><h2 style="background-color:green;"> Live Corona Case Report <?=date("d-m-Y");?></h2></center>
+<center><h2 style="background-color:green;"> Live Corona Case Report By <span style="color:white;">Shailesh Sharma </span><?=date("d-m-Y");?></h2></center>
 <hr >
-
+<h1 style="text-align:center;color:red;">All world covid-19 Cases</h1>
 <table>
-  <tr>
+  <tr style="background-color:yellow;">
     <th>Case</th>
     <th>Count</th>    
   </tr>
